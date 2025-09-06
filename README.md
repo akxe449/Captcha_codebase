@@ -1,4 +1,25 @@
-DIRECTORY STRUCTURE 
+STEPS TO RUN ON-DEVICE
+
+1. Clone the repository: 
+Open your terminal or command prompt and navigate to the directory where you want to save the code. Then, run the following command:
+git clone https://github.com/akxe449/Captcha_codebase.git
+
+2. Navigate to the repository: Change your current directory to the cloned repository:
+cd Captcha_codebase
+
+3. Install dependencies: The code uses several libraries.
+You'll need to install the libraries individually based on the imports in the notebook
+(scroll down and refer to dependencies!). 
+
+4. Download NLTK data: The code uses NLTK for word generation. You'll need to download the necessary data.
+import nltk
+nltk.download("words")
+
+Run the Python script .py file from the main branch 
+
+=> Remember that you might need to adjust the code slightly to run outside of a Colab environment, especially regarding file paths and environment-specific settings.
+
+DIRECTORY STRUCTURE (Colab Notebook)
 
 /content/: 
 The root directory in the Colab environment.
