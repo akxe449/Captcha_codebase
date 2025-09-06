@@ -1,5 +1,5 @@
-STEPS TO RUN ON-DEVICE
-
+**STEPS TO RUN ON-DEVICE
+**
 1. Clone the repository: 
 Open your terminal or command prompt and navigate to the directory where you want to save the code. Then, run the following command:
 git clone https://github.com/akxe449/Captcha_codebase.git
@@ -19,8 +19,8 @@ Run the Python script .py file from the main branch
 
 => Remember that you might need to adjust the code slightly to run outside of a Colab environment, especially regarding file paths and environment-specific settings.
 
-DIRECTORY STRUCTURE (Colab Notebook)
-
+**DIRECTORY STRUCTURE (Colab Notebook)
+**
 /content/: 
 The root directory in the Colab environment.
 
@@ -42,24 +42,37 @@ merged_dataset/: This directory contains the combined images and labels from bot
 labels.csv: Contains the merged image filenames and their corresponding word labels.
 *.png: Merged image files.
 
-cls100_fixed_nospacing/: This directory contains the structured dataset specifically created for the 100-class classification task, split into train, validation, and test subdirectories.
+cls100_fixed_nospacing/: 
+This directory contains the structured dataset specifically created for the 100-class classification task, split into train, validation, and test subdirectories.
+
 train/: Training images for the classification task.
+
 val/: Validation images for the classification task.
+
 test/: Testing images for the classification task.
+
 labels.csv: Contains the relative paths (including split) and labels for all images in this dataset.
+
 config.json: Configuration details used during the generation of this dataset.
+
 _generated.lock: A lock file indicating that the dataset generation was completed.
 
-ocr_20k_fixed/: This directory contains the larger dataset specifically created for the OCR task, also split into train, validation, and test subdirectories.
+ocr_20k_fixed/: 
+This directory contains the larger dataset specifically created for the OCR task, also split into train, validation, and test subdirectories.
+
 train/: Training images for the OCR task.
+
 val/: Validation images for the OCR task.
+
 test/: Testing images for the OCR task.
+
 labels.csv: Contains the relative paths (including split) and labels for all images in this dataset.
 config.json: Configuration details used during the generation of this dataset.
 _generated.lock: A lock file indicating that the dataset generation was completed.
 
 cnn_model.pth: 
 The saved state dictionary of the trained CNN classification model.
+
 crnn_model.pth: 
 The saved state dictionary of the trained CRNN OCR model.
 crnn20k_best.pth: 
@@ -67,18 +80,30 @@ The saved state dictionary of the best-performing CRNN model during training on 
 
 
 DEPENDENCIES USED 
-os
+os 
+
 random
+
 re
+
 PIL (Pillow)
+
 nltk
+
 numpy
+
 torch
+
 sklearn
+
 shutil
+
 pathlib
+
 collections
+
 matplotlib
+
 csv
 pandas
 
