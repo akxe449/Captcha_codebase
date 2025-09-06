@@ -80,6 +80,7 @@ The saved state dictionary of the best-performing CRNN model during training on 
 
 
 DEPENDENCIES USED 
+
 os 
 
 random
@@ -105,5 +106,6 @@ collections
 matplotlib
 
 csv
+
 pandas
 
