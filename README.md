@@ -1,3 +1,6 @@
+colab nb: https://colab.research.google.com/drive/1XOhwFHvwV5GZfd7AqkN46d2q2WVkMJL2?usp=sharing
+
+
 **STEPS TO RUN ON-DEVICE
 **
 1. Clone the repository: 
